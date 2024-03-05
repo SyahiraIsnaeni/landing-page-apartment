@@ -1,0 +1,130 @@
+#navigation{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    background-color: #091B70;
+}
+
+#navName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navName img{
+    width: 60px;
+    height: 60px;
+    border-radius: 70%;
+}
+
+#navName h3, h5{
+    font-family: "Roboto Light";
+    color: white;
+}
+
+#navList ul, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto Light";
+    font-size: 14px;
+    text-align: end;
+}
+
+#navList li{
+    margin-top: 5px;
+}
+
+#navList{
+    margin-left: auto;
+    margin-right: 10px
+}
+
+@media screen and (min-width: 480px) {
+    #navigation{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #navList ul, a{
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-family: "Roboto Light";
+        font-size: 14px;
+        text-align: end;
+        display: flex;
+    }
+
+    #navList li{
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    #navigation{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #navList ul, a{
+        font-size: 15px;
+    }
+
+    #navList li{
+        margin-top: 5px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #navigation{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #navList ul, a{
+        font-size: 16px;
+    }
+
+    #navList li{
+        margin-top: 5px;
+        margin-right: 80px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #navigation{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #navList ul, a{
+        font-size: 19px;
+    }
+
+    #navList li{
+        margin-top: 5px;
+        margin-right: 100px;
+    }
+
+    #navName h3{
+        font-size: 20px;
+    }
+
+    #navName h5{
+        font-size: 15px;
+    }
+}
