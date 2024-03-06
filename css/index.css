@@ -112,7 +112,8 @@
 }
 
 #facTitle h1{
-    font-family: "Roboto Light"
+    font-family: "Roboto Light";
+    font-size:22px
 }
 
 #facTitle img{
@@ -146,6 +147,166 @@
     width:40px;
     height:40px;
     margin: 0;
+}
+
+#contact{
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Roboto Light";
+}
+
+#contact h1{
+    font-size: 22px;
+}
+
+.imgContact{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.contactDetail{
+    display: flex;
+    font-size: 15px;
+}
+
+#contactInfo{
+    margin-top: 20px;
+}
+
+.contactDetail p{
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+.imgLocation{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+#footer{
+    bottom: 0;
+    margin-top: 40px;
+    background-color: #091B70;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Roboto Light";
+}
+
+#titleFooter img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#titleFooter{
+    display: flex;
+}
+
+#titleFooter h3{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: white;
+}
+
+#titleFooter h4{
+    margin: 0;
+    padding-top: 3px;
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+}
+
+#content1 h5{
+    text-decoration-thickness: 2px;
+    border-bottom: 2.5px solid white;
+    padding-bottom: 4px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#content1 p{
+    margin-top: -5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#content1{
+    margin-top: 10px;
+}
+
+#content2{
+    margin-bottom:8px;
+}
+
+#content2 h5{
+    text-decoration-thickness: 2px;
+    border-bottom: 2.5px solid white;
+    padding-bottom: 4px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#content3 h5{
+    text-decoration-thickness: 2px;
+    border-bottom: 2.5px solid white;
+    padding-bottom: 4px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.sosmed{
+    width: 22px;
+    height: 23px;
+    padding-right: 5px;
+}
+
+#contentSosmed{
+    display: flex;
+}
+
+#copyright p{
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 1.5px;
+}
+
+#copyright{
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.contactContent{
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.contactContent p{
+    margin: 0px;
+    color:white;
+
+    font-size: 14px;
+}
+
+.imgContactContent{
+    width: 18px;
+    height: 18px;
+    padding-right: 10px;
 }
 
 @media screen and (min-width: 480px) {
@@ -242,6 +403,53 @@
         width:45px;
         height:45px;
         margin: 0;
+    }
+
+    #contact{
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Roboto Light";
+    }
+
+    #contact h1{
+        font-size: 22px;
+    }
+
+    .imgContact{
+        width: 22px;
+        height: 22px;
+        margin: 0;
+    }
+
+    .contactDetail{
+        display: flex;
+        font-size: 16px;
+    }
+
+    #contactInfo{
+        margin-top: 20px;
+    }
+
+    .contactDetail p{
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .imgLocation{
+        margin-top: 20px;
+        height: 260px;
+    }
+
+    #footer{
+        bottom: 0;
+        margin-top: 40px;
+        background-color: #091B70;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Roboto Light";
     }
 
 }
@@ -358,6 +566,57 @@
         width:50px;
         height:50px;
         margin: 0;
+    }
+
+    #contact{
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: "Roboto Light";
+        display: flex;
+    }
+
+    #contact h1{
+        font-size: 22px;
+    }
+
+    .imgContact{
+        width: 22px;
+        height: 22px;
+        margin: 0;
+    }
+
+    .contactDetail{
+        display: flex;
+        font-size: 16px;
+    }
+
+    #contactInfo{
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .contactDetail p{
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .imgLocation{
+        margin-top: 20px;
+        width: 100%;
+        height: 260px;
+        padding-left: 30px;
+    }
+
+    #footer{
+        bottom: 0;
+        margin-top: 40px;
+        background-color: #091B70;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: "Roboto Light";
     }
 }
 
@@ -483,6 +742,169 @@
         height:50px;
         margin: 0;
     }
+
+    #contact{
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: "Roboto Light";
+        display: flex;
+    }
+
+    #contact h1{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .imgContact{
+        width: 22px;
+        height: 22px;
+        margin: 0;
+    }
+
+    .contactDetail{
+        display: flex;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+
+    #contactInfo{
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .contactDetail p{
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .imgLocation{
+        margin-top: 20px;
+        width: 450px;
+        height: 260px;
+        padding-left: 30px;
+    }
+
+    #footer{
+        bottom: 0;
+        margin-top: 60px;
+        background-color: #091B70;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Roboto Light";
+    }
+
+    #titleFooter img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    #titleFooter{
+        display: flex;
+    }
+
+    #titleFooter h3{
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 15px;
+        color: white;
+    }
+
+    #titleFooter h4{
+        margin: 0;
+        padding-top: 3px;
+        padding-left: 15px;
+        font-weight: normal;
+        font-size: 15px;
+        color: white;
+    }
+
+    #content1 h5{
+        text-decoration-thickness: 2px;
+        border-bottom: 2.5px solid white;
+        padding-bottom: 4px;
+        display: inline-block;
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+
+    #content1 p{
+        margin-top: -4px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    #content2 h5{
+        text-decoration-thickness: 2px;
+        border-bottom: 2.5px solid white;
+        padding-bottom: 4px;
+        display: inline-block;
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    #content3 h5{
+        text-decoration-thickness: 2px;
+        border-bottom: 2.5px solid white;
+        padding-bottom: 4px;
+        display: inline-block;
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .sosmed{
+        width: 22px;
+        height: 23px;
+        padding-right: 5px;
+    }
+
+    #contentSosmed{
+        display: flex;
+    }
+
+    #copyright p{
+        font-size: 13px;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+        margin: 0;
+        padding-top: 1.5px;
+    }
+
+    #copyright{
+        margin-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .contactContent{
+        display: flex;
+        padding-bottom: 12px;
+    }
+
+    .contactContent p{
+        margin: 0px;
+        color:white;
+
+        font-size: 14px;
+    }
+
+    .imgContactContent{
+        width: 18px;
+        height: 18px;
+        padding-right: 10px;
+    }
+
+    #contentFooter{
+        display: grid;
+        grid-template-columns: 30% 35% 45%;
+        margin-top: 15px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -584,7 +1006,7 @@
     }
 
     #facilities{
-        padding-top: 70px;
+        padding-top: 60px;
         padding-left:40px;
         padding-right:40px;
         display: flex;
@@ -605,11 +1027,12 @@
         height: 370px;
         border-radius: 10px;
         object-fit: cover;
+        margin-top: 30px;
     }
 
     #facDetail{
         grid-gap:40px;
-        margin-top:100px;
+        margin-top:115px;
         width: 100%;
         margin-left: 60px;
     }
@@ -628,6 +1051,166 @@
     #facDetail .imgFac{
         width:55px;
         height:55px;
+        margin-top: 0;
+    }
+
+    #contact{
+        margin-top: 70px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-family: "Roboto Light";
+        display: flex;
+    }
+
+    #contact h1{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .imgContact{
+        width: 25px;
+        height: 25px;
+    }
+
+    .contactDetail{
+        display: flex;
+        font-size: 19px;
+        margin-top: 5px;
+    }
+
+    #contactInfo{
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .contactDetail p{
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .imgLocation{
+        margin-top: 20px;
+        width: 650px;
+        height: 270px;
+        padding-left: 60px;
+    }
+
+    #footer{
+        bottom: 0;
+        margin-top: 60px;
+        background-color: #091B70;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-family: "Roboto Light";
+    }
+
+    #titleFooter img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    #titleFooter{
+        display: flex;
+    }
+
+    #titleFooter h3{
         margin: 0;
+        padding-top: 10px;
+        padding-left: 15px;
+        color: white;
+    }
+
+    #titleFooter h4{
+        margin: 0;
+        padding-top: 3px;
+        padding-left: 15px;
+        font-weight: normal;
+        font-size: 15px;
+        color: white;
+    }
+
+    #content1 h5{
+        text-decoration-thickness: 2px;
+        border-bottom: 2.5px solid white;
+        padding-bottom: 4px;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    #content1 p{
+        margin-top: -5px;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    #content2 h5{
+        text-decoration-thickness: 2px;
+        border-bottom: 2.5px solid white;
+        padding-bottom: 4px;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 16px;
+        margin-top: 10px;
+    }
+
+    #content3 h5{
+        text-decoration-thickness: 2px;
+        border-bottom: 2.5px solid white;
+        padding-bottom: 4px;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .sosmed{
+        width: 22px;
+        height: 23px;
+        padding-right: 12px;
+    }
+
+    #contentSosmed{
+        display: flex;
+    }
+
+    #copyright p{
+        font-size: 13.5px;
+        font-weight: lighter;
+        text-align: center;
+        color: white;
+        margin: 0;
+        padding-top: 1.5px;
+    }
+
+    #copyright{
+        margin-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .contactContent{
+        display: flex;
+        padding-bottom: 12px;
+    }
+
+    .contactContent p{
+        margin: 0px;
+        color:white;
+        font-size: 16px;
+    }
+
+    .imgContactContent{
+        width: 18px;
+        height: 18px;
+        padding-right: 10px;
+    }
+
+    #contentFooter{
+        grid-template-columns: 35% 35% 30%;
+        margin-top: 20px;
+        display: grid;
     }
 }
